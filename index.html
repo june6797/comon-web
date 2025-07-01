@@ -50,26 +50,28 @@
 
 <body>
 
-    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=005gL0000049Yg5QAE"
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DgL000005i7sZ"
         method="POST">
-        <input type="hidden" name="oid" value="005gL0000049Yg5QAE">
+        <input type=hidden name="oid" value="00DgL000005i7sZ">
         <input type="hidden" name="retURL" value="https://comon-web.vercel.app">
 
-        <label for="first_name">First Name</label>
-        <input id="first_name" maxlength="40" name="first_name" type="text" />
+        <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20"
+            type="text" /><br>
 
-        <label for="last_name">Last Name</label>
-        <input id="last_name" maxlength="80" name="last_name" type="text" />
+        <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20"
+            type="text" /><br>
 
-        <label for="email">Email</label>
-        <input id="email" maxlength="80" name="email" type="text" />
+        <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-        <label for="company">Company</label>
-        <input id="company" maxlength="40" name="company" type="text" />
+        <label for="company">Company</label><input id="company" maxlength="40" name="company" size="20"
+            type="text" /><br>
 
-        <label for="city">City</label>
-        <input id="city" maxlength="40" name="city" type="text" />
-
+        City:<select id="00NgL000012JhQz" name="00NgL000012JhQz" title="City">
+            <option value="">--None--</option>
+            <option value="서울">서울</option>
+            <option value="대구">대구</option>
+            <option value="부산">부산</option>
+        </select><br>
 
         <input type="submit" value="Submit">
         <input type="hidden" name="debug" value=1>
